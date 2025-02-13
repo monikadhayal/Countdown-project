@@ -1,10 +1,10 @@
+ 
 import { useState } from 'react'
-import CounterTimer from './component/countertimer/CounterTimer'
-import './App.css'
+// import CounterTimer from './component/countertimer/CounterTimer'
+import CounterTimer from './component/countertimer/CounterTimer';
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [count,setCount]  = useState();
   return (
     <>
      <CounterTimer/>
